@@ -33,6 +33,8 @@ for value in second_column_values:
         print("Field %s does not start with OME schema prefix or TBD prefix. Skipping." % value)
         
     # Check if the field is already defined in the context
+    if fieldName == "":
+        continue
     if fieldName in context:
         print("Field %s is already defined in the context." % fieldName)
     else:
