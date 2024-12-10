@@ -1,0 +1,102 @@
+{
+    "@id": "https://w3id.org/ro/crate/1.0/context",
+    "name": [
+        "RO-Crate JSON-LD Context"
+    ],
+    "version": "1.0.0",
+    "schemaVersion": {
+        "@id": "http://schema.org/version/5.0/"
+    },
+    "license": {
+        "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "comments": {
+        "schema:description": "OME JSON-LD context",
+        "schema:creationDate": "2024-12-10T10:48:43",
+        "author": [
+            {
+                "name": "Josh Moore",
+                "email": "josh@openmicroscopy.org",
+                "@id": {
+                    "@type": "ORCID",
+                    "@id": "0000-0003-4028-811X"
+                },
+                "@type": "schema:Person"
+            },
+            {
+                "name": "Stefan Dvoretskii",
+                "email": "stefan.dvoretskii@dkfz-heidelberg.de",
+                "@id": {
+                    "@type": "ORCID",
+                    "@id": "0000-0001-7769-0167"
+                },
+                "@type": "schema:Person"
+            }
+        ]
+    },
+    "@context": {
+        "schema": "http://schema.org/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "name": "http://www.openmicroscopy.org/Schemas/OME/2016-06#name",
+        "description": "http://www.openmicroscopy.org/Schemas/OME/2016-06#description",
+        "manufacturer": "http://www.openmicroscopy.org/Schemas/OME/2016-06#manufacturer",
+        "model": "http://www.openmicroscopy.org/Schemas/OME/2016-06#model",
+        "serialNumber": "http://www.openmicroscopy.org/Schemas/OME/2016-06#serialNumber",
+        "microscopeType": "http://www.openmicroscopy.org/Schemas/OME/2016-06#microscopeType",
+        "version": "http://www.openmicroscopy.org/Schemas/OME/2016-06#version",
+        "voltage": "http://www.openmicroscopy.org/Schemas/OME/2016-06#voltage",
+        "gain": "http://www.openmicroscopy.org/Schemas/OME/2016-06#gain",
+        "offsetValue": "http://www.openmicroscopy.org/Schemas/OME/2016-06#offsetValue",
+        "zoom": "http://www.openmicroscopy.org/Schemas/OME/2016-06#zoom",
+        "amplificationGain": "http://www.openmicroscopy.org/Schemas/OME/2016-06#amplificationGain",
+        "detectorType": "http://www.openmicroscopy.org/Schemas/OME/2016-06#detectorType",
+        "nominalMagnification": "http://www.openmicroscopy.org/Schemas/OME/2016-06#nominalMagnification",
+        "calibratedMagnification": "http://www.openmicroscopy.org/Schemas/OME/2016-06#calibratedMagnification",
+        "lensNA": "http://www.openmicroscopy.org/Schemas/OME/2016-06#lensNA",
+        "immersion": "http://www.openmicroscopy.org/Schemas/OME/2016-06#immersion",
+        "correction": "http://www.openmicroscopy.org/Schemas/OME/2016-06#correction",
+        "workingDistance": "http://www.openmicroscopy.org/Schemas/OME/2016-06#workingDistance",
+        "iris": "http://www.openmicroscopy.org/Schemas/OME/2016-06#iris",
+        "lotNumber": "http://www.openmicroscopy.org/Schemas/OME/2016-06#lotNumber",
+        "dichroic": "http://www.openmicroscopy.org/Schemas/OME/2016-06#dichroic",
+        "Instrument": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Instrument",
+        "Microscope": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Microscope",
+        "Detector": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Detector",
+        "Objective": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Objective",
+        "FilterSet": "http://www.openmicroscopy.org/Schemas/OME/2016-06#FilterSet",
+        "": "http://www.openmicroscopy.org/Schemas/OME/2016-06#",
+        "Channel": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Channel",
+        "Experimenter": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Experimenter",
+        "ExperimenterGroup": "http://www.openmicroscopy.org/Schemas/OME/2016-06#ExperimenterGroup",
+        "MapAnnotation": "http://www.openmicroscopy.org/Schemas/OME/2016-06#MapAnnotation",
+        "Name": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Name",
+        "OMEImage": "http://www.openmicroscopy.org/Schemas/OME/2016-06#OMEImage",
+        "Pixels": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Pixels",
+        "TagAnnotation": "http://www.openmicroscopy.org/Schemas/OME/2016-06#TagAnnotation",
+        "canAnnotate": "http://www.openmicroscopy.org/Schemas/OME/2016-06#canAnnotate",
+        "canDelete": "http://www.openmicroscopy.org/Schemas/OME/2016-06#canDelete",
+        "canEdit": "http://www.openmicroscopy.org/Schemas/OME/2016-06#canEdit",
+        "canLink": "http://www.openmicroscopy.org/Schemas/OME/2016-06#canLink",
+        "isGroupAnnotate": "http://www.openmicroscopy.org/Schemas/OME/2016-06#isGroupAnnotate",
+        "isGroupRead": "http://www.openmicroscopy.org/Schemas/OME/2016-06#isGroupRead",
+        "isGroupWrite": "http://www.openmicroscopy.org/Schemas/OME/2016-06#isGroupWrite",
+        "isUserRead": "http://www.openmicroscopy.org/Schemas/OME/2016-06#isUserRead",
+        "isUserWrite": "http://www.openmicroscopy.org/Schemas/OME/2016-06#isUserWrite",
+        "isWorldRead": "http://www.openmicroscopy.org/Schemas/OME/2016-06#isWorldRead",
+        "isWorldWrite": "http://www.openmicroscopy.org/Schemas/OME/2016-06#isWorldWrite",
+        "perm": "http://www.openmicroscopy.org/Schemas/OME/2016-06#perm",
+        "AcquisitionMode": "http://www.openmicroscopy.org/Schemas/OME/2016-06#AcquisitionMode",
+        "ChecksumAlgorithm": "http://www.openmicroscopy.org/Schemas/OME/2016-06#ChecksumAlgorithm",
+        "ContrastMethod": "http://www.openmicroscopy.org/Schemas/OME/2016-06#ContrastMethod",
+        "Details": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Details",
+        "DimensionOrder": "http://www.openmicroscopy.org/Schemas/OME/2016-06#DimensionOrder",
+        "ExternalInfo": "http://www.openmicroscopy.org/Schemas/OME/2016-06#ExternalInfo",
+        "Format": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Format",
+        "Illumination": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Illumination",
+        "OriginalFile": "http://www.openmicroscopy.org/Schemas/OME/2016-06#OriginalFile",
+        "Permissions": "http://www.openmicroscopy.org/Schemas/OME/2016-06#Permissions",
+        "PhotometricInterpretation": "http://www.openmicroscopy.org/Schemas/OME/2016-06#PhotometricInterpretation",
+        "PixelsType": "http://www.openmicroscopy.org/Schemas/OME/2016-06#PixelsType",
+        "LengthI": "http://www.openmicroscopy.org/Schemas/OME/2016-06#LengthI"
+    }
+}
